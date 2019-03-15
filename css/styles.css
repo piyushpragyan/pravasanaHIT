@@ -1,0 +1,217 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+/* LANDING SECTION BEGIN */
+.landing {
+    padding: 0;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: blue;
+}
+
+.landing-logo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(255, 0, 0, 0.76);
+}
+
+.landing-logo .landing-img img {
+    width: 20vh;
+}
+
+.landing-logo .landing-header {
+    margin-top: 5vh;
+    text-align: center;
+}
+
+/* LANDING SECTION END */
+
+
+/* ABOUT US BEGIN */
+
+.about-us {
+    min-height: 100vh;
+    background-color: tomato;
+}
+
+.about-us-header {
+    width: 100%;
+    min-height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-us .about-us-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-us img {
+    width: 25vh;
+}
+
+.about-us .about-us-text {
+    text-align: justify;
+    padding: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ABOUT US SECTION END */
+
+
+/* EVENTS SECTION BEGIN */
+
+.events {
+    background-color: crimson;
+    min-height: 40vh;
+}
+
+.events-header {
+    min-height: 15vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.events-card-cont .event-card {
+    margin: 55px;
+    padding: 55px;
+    text-align: justify;
+    border: solid red 5px;
+}
+
+/* EVENTS SECTION END */
+
+
+/* START OF FOOTER */
+
+footer {
+    max-height: 55vh;
+}
+
+.foot1 {
+    background-color: #5900ff;
+    color: #e3e6f2;
+    padding: 8vh 5vw;
+    margin: 0;
+}
+
+.footer-head {
+    font-family: blackoutSun;
+}
+
+.foot1 p,
+.foot2 {
+    font-family: lmonoULight;
+}
+
+.footer-head1 {
+    font-family: lmonoULight;
+    font-size: 6vh;
+    color: rgb(3, 3, 3);
+}
+
+.foot2 {
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    background-color: black;
+    color: #e3e6f2;
+    margin: 0;
+}
+
+.foot2.col-lg-12 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot2 p {
+    margin: 0;
+}
+
+/* END OF FOOTER */
+
+
+/* Small screens */
+
+@media screen and (max-width: 720px) {
+
+    .about-us .about-us-text {
+        margin: 5vh 2vw;
+    }
+
+    .about-us .about-us-img {
+        min-height: 40vh;
+    }
+
+    .events-card-cont {
+        min-height: 30vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .events-card-cont .event-card {
+        width: 75%;
+        min-height: 35vh;
+    }
+
+    .footer-head {
+        padding-top: 11vh;
+    }
+
+    .foot1.col-lg-4:nth-child(2) {
+        text-align: center;
+    }
+
+}
+
+/* Large screens */
+
+@media screen and (min-width: 720px) {
+
+    .about-us .about-us-text {
+        margin: 5vh auto;
+    }
+
+    .about-us .about-us-img {
+        min-height: 65vh;
+    }
+
+    .events-card-cont {
+        min-height: 30vh;
+        width: 100%;
+        margin-bottom: 5vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .events-card-cont .event-card {
+        width: 16%;
+        min-height: 35vh;
+    }
+
+}
