@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+*:focus {
+    outline: 0 !important;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -88,6 +92,7 @@ body {
 .about-us {
     min-height: 100vh;
     background-color: white;
+    margin-bottom: 10vh;
 }
 
 .about-us-header {
@@ -127,15 +132,44 @@ body {
     font-family: 'Cardo', serif;
 }
 
+.about-gallery {
+    min-height: 25vh;
+}
+
+.about-gallery h1 {
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.each-gallery .col-lg-6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.each-gallery img {
+    margin: 5vh 2vw;
+}
+
 /* ABOUT US SECTION END */
 
 
 /* EVENTS SECTION BEGIN */
 
 .events {
-    background-color: rgb(228, 228, 228);
+    padding: 4vh 2vw;
     color: white;
+    background-color: #000000;
     min-height: 40vh;
+}
+
+.expanding {
+    background-color: rgb(224, 224, 224);
+}
+
+.events-expand {
+    display: none;
+    transition: 0.5s;
 }
 
 .events-header {
@@ -146,31 +180,57 @@ body {
     justify-content: center;
     font-size: 6vh;
     letter-spacing: 8px;
-    color: rgb(61, 61, 61);
+    color: rgb(224, 224, 224);
     font-family: 'Fjalla One', sans-serif;
 }
 
+.event-utsav {
+    min-height: 25vh;
+    background-color: #000000;
+    color: rgb(224, 224, 224);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.event-utsav img {
+    width: 25vh;
+}
+
+.event-utsav button {
+    border: 0;
+    color: rgb(185, 34, 92);
+    border-radius: 22px;
+    border: 2px solid rgb(185, 34, 92);
+    background-color: #e3e6f200;
+    padding: 10px 15px;
+    margin-bottom: 10vh;
+    font-family: 'Cardo', serif;
+}
+
 .events-card-cont .event-card {
+    border: 2px solid rgb(185, 34, 92);
     font-family: 'Cardo', serif;
     margin: 55px;
     text-align: justify;
-    color: rgb(100, 100, 100);
-    background-color: #ffffff;  /* fallback for old browsers */
-    -webkit-box-shadow: 10px 10px 32px -13px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 32px -13px rgba(0,0,0,0.75);
-    box-shadow: 10px 10px 32px -13px rgba(0,0,0,0.75);
+    color: rgb(224, 224, 224);
+    background-color: rgb(0, 0, 0);
+    -webkit-box-shadow: 3px 6px 28px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 6px 28px -7px rgba(0,0,0,0.75);
+    box-shadow: 3px 6px 28px -7px rgba(0,0,0,0.75);
     transition: 0.3s;
 }
 
 .events-card-cont .event-card:hover {
-    -webkit-box-shadow: 10px 10px 32px -6px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 32px -6px rgba(0,0,0,0.75);
-    box-shadow: 10px 10px 32px -6px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 3px 6px 28px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 6px 28px -1px rgba(0,0,0,0.75);
+    box-shadow: 3px 6px 28px -1px rgba(0,0,0,0.75);
 }
 
 .event-card h2 {
     text-align: center;
-    color: rgb(65, 65, 65);
+    color: rgb(224, 224, 224);
     font-family: 'Fjalla One', sans-serif;
 }
 
@@ -178,7 +238,8 @@ body {
     border: 0;
     padding: 5px 10px;
     color: white;
-    background-color: rgb(170, 170, 170);
+    background-color: rgba(224, 224, 224, 0);
+    border: 2px solid rgb(185, 34, 92);
 }
 
 /* EVENTS SECTION END */
@@ -189,6 +250,7 @@ body {
 .our-collab {
     min-height: 100vh;
     background-color: white;
+    margin-bottom: 10vh;
 }
 
 .our-collab-header {
@@ -235,16 +297,16 @@ body {
     overflow: hidden;
     background-color: #002df8b2;
     color: white;
-    -webkit-box-shadow: 10px 10px 32px -13px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 32px -13px rgba(0,0,0,0.75);
-    box-shadow: 10px 10px 32px -13px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 3px 6px 28px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 6px 28px -7px rgba(0,0,0,0.75);
+    box-shadow: 3px 6px 28px -7px rgba(0,0,0,0.75);
     transition: 0.3s;
 }
 
 .our-collab-igers .collab-card:hover {
-    -webkit-box-shadow: 10px 10px 32px -6px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 32px -6px rgba(0,0,0,0.75);
-    box-shadow: 10px 10px 32px -6px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 3px 6px 28px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 6px 28px -1px rgba(0,0,0,0.75);
+    box-shadow: 3px 6px 28px -1px rgba(0,0,0,0.75);
 }
 
 .collab-card img {
@@ -326,9 +388,21 @@ footer {
 
 @media screen and (max-width: 720px) {
 
+    .loader img {
+        width: 80vw;
+    }
+
+    .landing {
+        background-image: url('../sources/src3.jpeg');
+    }
+
     .landing-logo {
         width: 100%;
         height: 100%;
+    }
+
+    .landing-header h3 {
+        font-size: 4vw;
     }
 
     .about-us .about-us-text {
@@ -390,10 +464,18 @@ footer {
 
 @media screen and (min-width: 720px) {
 
+    .loader img {
+        width: 25vw;
+    }
+
     .landing-logo {
         width: 45%;
         height: 60%;
         padding: 55px;
+    }
+
+    .landing-header h3 {
+        font-size: 1.5vw;
     }
 
     .about-us .about-us-text {
