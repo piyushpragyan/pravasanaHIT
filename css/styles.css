@@ -11,22 +11,28 @@ body {
     overflow-x: hidden;
 }
 
+.row {
+    margin: 0px;
+}
+
 /* LANDING SECTION BEGIN */
 .landing {
     padding: 0;
     width: 100vw;
     min-height: 100vh;
-    background-color: blue;
+    background-image: url('../sources/src2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .landing-logo {
-    width: 100%;
-    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: rgba(255, 0, 0, 0.76);
 }
 
 .landing-logo .landing-img img {
@@ -36,6 +42,13 @@ body {
 .landing-logo .landing-header {
     margin-top: 5vh;
     text-align: center;
+    color: black;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.landing-logo .landing-header h1 {
+    font-size: 6vh;
+    letter-spacing: 8px;
 }
 
 /* LANDING SECTION END */
@@ -45,7 +58,7 @@ body {
 
 .about-us {
     min-height: 100vh;
-    background-color: tomato;
+    background-color: white;
 }
 
 .about-us-header {
@@ -54,6 +67,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 6vh;
+    letter-spacing: 8px;
+    color: black;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 .about-us .about-us-img {
@@ -63,7 +80,8 @@ body {
 }
 
 .about-us img {
-    width: 25vh;
+    width: 75%;
+    max-height: 45vh;
 }
 
 .about-us .about-us-text {
@@ -74,13 +92,20 @@ body {
     justify-content: center;
 }
 
+.about-us-text h4 {
+    line-height: 5vh;
+    color: black;
+    font-family: 'Cardo', serif;
+}
+
 /* ABOUT US SECTION END */
 
 
 /* EVENTS SECTION BEGIN */
 
 .events {
-    background-color: crimson;
+    background-color: rgb(228, 228, 228);
+    color: white;
     min-height: 40vh;
 }
 
@@ -90,42 +115,158 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 6vh;
+    letter-spacing: 8px;
+    color: rgb(61, 61, 61);
+    font-family: 'Fjalla One', sans-serif;
 }
 
 .events-card-cont .event-card {
+    font-family: 'Cardo', serif;
     margin: 55px;
-    padding: 55px;
     text-align: justify;
-    border: solid red 5px;
+    color: rgb(100, 100, 100);
+    background-color: #ffffff;  /* fallback for old browsers */
+    -webkit-box-shadow: 10px 10px 32px -13px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 32px -13px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 32px -13px rgba(0,0,0,0.75);
+    transition: 0.3s;
+}
+
+.events-card-cont .event-card:hover {
+    -webkit-box-shadow: 10px 10px 32px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 32px -6px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 32px -6px rgba(0,0,0,0.75);
+}
+
+.event-card h2 {
+    text-align: center;
+    color: rgb(65, 65, 65);
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.event-card button {
+    border: 0;
+    padding: 5px 10px;
+    color: white;
+    background-color: rgb(170, 170, 170);
 }
 
 /* EVENTS SECTION END */
+
+
+/* COLLABORATORS SECTION BEGIN */
+
+.our-collab {
+    min-height: 100vh;
+    background-color: white;
+}
+
+.our-collab-header {
+    margin: 5vh auto;
+    min-height: 15vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 6vh;
+    letter-spacing: 8px;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.our-collab-logo {
+    min-height: 20vh;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.our-collab-logo img {
+    height: 20vh;
+}
+.our-collab-logo h1 {
+    font-size: 5vh;
+    font-family: 'Cardo', serif;
+}
+
+.our-collab-igers {
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.our-collab-igers .collab-card {
+    margin: 5vh 1vw;
+    overflow: hidden;
+    background-color: #002df8b2;
+    color: white;
+    -webkit-box-shadow: 10px 10px 32px -13px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 32px -13px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 32px -13px rgba(0,0,0,0.75);
+    transition: 0.3s;
+}
+
+.our-collab-igers .collab-card:hover {
+    -webkit-box-shadow: 10px 10px 32px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 32px -6px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 32px -6px rgba(0,0,0,0.75);
+}
+
+.collab-card img {
+    height: 40vh;
+    width: 100%;
+}
+
+.collab-desc {
+    min-height: 7vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.collab-card h1, .collab-card h4 {
+    text-align: center;
+    font-size: 6vh;
+    text-shadow: 1.5px 1.5px 1.5px black;
+    font-family: 'Cardo', serif;
+}
+
+/**/
 
 
 /* START OF FOOTER */
 
 footer {
     max-height: 55vh;
+    background-image: url('../sources/src1.jpeg');
 }
 
 .foot1 {
-    background-color: #5900ff;
-    color: #e3e6f2;
+    background-color: #cecdcbcb;
+    color: #000000;
     padding: 8vh 5vw;
     margin: 0;
 }
 
 .footer-head {
-    font-family: blackoutSun;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 .foot1 p,
 .foot2 {
-    font-family: lmonoULight;
+    font-family: 'Cardo', serif;
 }
 
 .footer-head1 {
-    font-family: lmonoULight;
+    font-family: 'Cardo', serif;
     font-size: 6vh;
     color: rgb(3, 3, 3);
 }
@@ -156,6 +297,11 @@ footer {
 
 @media screen and (max-width: 720px) {
 
+    .landing-logo {
+        width: 100%;
+        height: 100%;
+    }
+
     .about-us .about-us-text {
         margin: 5vh 2vw;
     }
@@ -175,7 +321,30 @@ footer {
 
     .events-card-cont .event-card {
         width: 75%;
+        padding: 25px;
         min-height: 35vh;
+    }
+
+    .our-collab-logo {
+        flex-direction: column;
+    }
+
+    .our-collab-igers .collab-card {
+        width: 80vw;
+    }
+
+    .our-collab-igers {
+        flex-direction: column;
+    }
+
+    .collab-card h1 {
+        margin-top: 2.5vh;
+        font-size: 3.5vh;
+    }
+
+    .collab-card h4 {
+        font-size: 3vh;
+        margin-bottom: 2.5vh;
     }
 
     .footer-head {
@@ -191,6 +360,12 @@ footer {
 /* Large screens */
 
 @media screen and (min-width: 720px) {
+
+    .landing-logo {
+        width: 45%;
+        height: 60%;
+        padding: 55px;
+    }
 
     .about-us .about-us-text {
         margin: 5vh auto;
@@ -211,7 +386,30 @@ footer {
 
     .events-card-cont .event-card {
         width: 16%;
+        padding: 55px;
         min-height: 35vh;
+    }
+
+    .our-collab-igers .collab-card {
+        width: 25vw;
+    }
+
+    .our-collab-igers .collab-card {
+        display: inline-block;
+    }
+
+    .collab-card h1 {
+        margin-top: 2.5vh;
+        font-size: 2.5vh;
+    }
+
+    .collab-card h4 {
+        font-size: 2vh;
+        margin-bottom: 2.5vh;
+    }
+
+    footer {
+        background-position-y: 55vh;
     }
 
 }

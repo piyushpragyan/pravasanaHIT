@@ -1,0 +1,2 @@
+font-family: 'Fjalla One', sans-serif; 400
+font-family: 'Cardo', serif;
