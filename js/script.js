@@ -6,13 +6,17 @@
     });
 
     document.addEventListener("DOMContentLoaded", function () {
-        
+
         let expandButton = document.querySelector(".event-utsav button");
         console.log(expandButton);
         let eventsExpander = document.querySelector(".expanding");
 
         expandButton.addEventListener("click", function() {
             eventsExpander.classList.toggle("events-expand");
+            if(eventsExpander.classList.contains("events-expand"))
+                expandButton.innerHTML = "Expand ↓";
+            else
+            expandButton.innerHTML = "Collapse ↑";
         });
     });
 
