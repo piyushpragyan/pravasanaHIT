@@ -19,6 +19,20 @@ body {
     margin: 0px;
 }
 
+.about-us-header, .about-sec, .abt-gal, .our-collab {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 1s ease-out;
+    margin: 0;
+}
+
+.about-us-header.fade-in, .about-sec.fade-in,
+.abt-gal.fade-in, .our-collab.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+    margin: 0;
+}
+
 /* START OF LOADER */
 
 .loader {
@@ -54,6 +68,7 @@ body {
     width: 100vw;
     min-height: 100vh;
     background-image: url('../sources/src2.jpg');
+    background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -97,7 +112,7 @@ body {
 
 .about-us-header {
     width: 100%;
-    min-height: 20vh;
+    min-height: 25vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -114,6 +129,7 @@ body {
 }
 
 .about-us img {
+    background-attachment: fixed;
     width: 75%;
     max-height: 45vh;
 }
@@ -130,13 +146,22 @@ body {
     line-height: 5vh;
     color: black;
     font-family: 'Cardo', serif;
+    margin-bottom: 10vh;
 }
 
 .about-gallery {
+    border: 1px solid rgb(230, 230, 230);
+    padding: 0;
     min-height: 25vh;
+    transition: 0.4s;
+}
+
+.about-gallery:hover {
+    background-color: rgb(230, 230, 230);
 }
 
 .about-gallery h1 {
+    margin: 4vh 0;
     text-align: center;
     font-family: 'Fjalla One', sans-serif;
 }
@@ -147,8 +172,12 @@ body {
     justify-content: center;
 }
 
-.each-gallery img {
-    margin: 5vh 2vw;
+.each-gallery img:hover {
+    border: 2px solid black;
+}
+
+.about-sec {
+    min-height: 60vh;
 }
 
 /* ABOUT US SECTION END */
@@ -235,6 +264,7 @@ body {
 }
 
 .event-card button.btn-info {
+    font-size: 1.8vh;
     border: 0;
     padding: 5px 10px;
     color: white;
@@ -262,6 +292,10 @@ body {
     background-color: rgba(0, 0, 0, 0.685);
 }
 
+.modal-content .modal-body {
+    font-size: 2.5vh;
+}
+
 button.close {
     color: white;
 }
@@ -278,7 +312,7 @@ button.close {
 /* COLLABORATORS SECTION BEGIN */
 
 .our-collab {
-    min-height: 100vh;
+    min-height: 55vh;
     background-color: white;
     margin-bottom: 10vh;
 }
@@ -439,8 +473,16 @@ footer {
         margin: 5vh 2vw;
     }
 
+    .about-gallery {
+        margin : 8vh 0;
+    }
+
     .about-us .about-us-img {
         min-height: 40vh;
+    }
+
+    .each-gallery img {
+        margin: 2vh 0vw;
     }
 
     .events-card-cont {
@@ -516,6 +558,10 @@ footer {
         min-height: 65vh;
     }
 
+    .each-gallery img {
+        margin: 5vh 2vw;
+    }
+
     .events-card-cont {
         min-height: 30vh;
         width: 100%;
@@ -527,7 +573,7 @@ footer {
 
     .events-card-cont .event-card {
         width: 16%;
-        padding: 55px;
+        padding: 55px 28px;
         min-height: 35vh;
     }
 

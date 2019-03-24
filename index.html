@@ -13,6 +13,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
+    <!-- scrollmagic CDN -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/debug.addIndicators.min.js"></script>
+
     <!-- google fonts cdn -->
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cardo" rel="stylesheet">
@@ -49,95 +53,107 @@
         <div class="row about-us">
             <div class="col-lg-12">
                 <div class="row">
-                    <div class="col-lg-12 about-us-header">
+                    <div id="abt-head" class="col-lg-12 about-us-header">
                         <h1>ABOUT US<h1>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-5 about-us-img">
-                        <img src="./sources/src4.jpg" alt="About Us img">
-                    </div>
-                    <div class="col-lg-7 about-us-text">
-                        <h4>It is a long established fact that a reader will be distracted
-                            by the readable content of a page when looking at its layout.
-                            The point of using Lorem Ipsum is that it has a more-or-less normal
-                            distribution of letters, as opposed to using 'Content here, content here',
-                            making it look like readable English. Many desktop publishing packages and web
-                            page editors now use Lorem Ipsum as their default model text, and a search for
-                            'lorem ipsum' will uncover many web sites still in their infancy. Various versions
-                            have evolved over the years, sometimes by accident,
-                            sometimes on purpose (injected humour and the like).
-                        </h4>
-                    </div>
-                    <div class="col-lg-4 about-gallery">
-                        <h1>Photography</h1>
-                        <div class="row each-gallery">
-                            <div class="col-lg-6">
-                                <img src="./sources/src3.jpeg" alt="Gallery Img">
+                    <div class="col-lg-12">
+                        <div id="abt-cont" class="row about-sec">
+                            <div class="col-lg-5 about-us-img">
+                                <img src="./sources/src4.jpg" alt="About Us img">
                             </div>
-                            <div class="col-lg-6">
-                                <img src="./sources/src3.jpeg" alt="Gallery Img">
-                            </div>
-                            <div class="col-lg-6">
-                                <img src="./sources/src3.jpeg" alt="Gallery Img">
-                            </div>
-                            <div class="col-lg-6">
-                                <img src="./sources/src3.jpeg" alt="Gallery Img">
-                            </div>
-                            <div class="col-lg-6">
-                                <img src="./sources/src3.jpeg" alt="Gallery Img">
-                            </div>
-                            <div class="col-lg-6">
-                                <img src="./sources/src3.jpeg" alt="Gallery Img">
+                            <div class="col-lg-7 about-us-text">
+                                <h4>Pravasana is the official , photography , painting
+                                    and videography club of Heritage Institute of Technology,
+                                    Kolkata. Since its advent , the club has been actively
+                                    taking part in various college events across the country
+                                    and has helped the college host its various remarkable
+                                    events. The club has also made its debut short film “Ashwini”
+                                    in the year 2018. Pravasana has been proudly organising the
+                                    Heritage Film Festival. The club has introduced a new 3 day
+                                    festival this time in 2019 – Cinema Paradiso. We encourage
+                                    the students of HIT-K to learn and explore their fields of
+                                    interests in photography , videography and various other forms of art.
+                                </h4>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 about-gallery">
-                        <h1>Paintings</h1>
-                        <div class="row each-gallery">
-                            <div class="col-lg-6">
-                                <img src="./sources/src3.jpeg" alt="Gallery Img">
+
+                        <div id="abt-gall" class="row abt-gal">
+
+                            <div class="col-lg-4 about-gallery">
+                                <h1>Photography</h1>
+                                <div class="row each-gallery">
+                                    <div class="col-lg-6">
+                                        <img src="./sources/src3.jpeg" alt="Gallery Img">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <img src="./sources/src3.jpeg" alt="Gallery Img">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <img src="./sources/src3.jpeg" alt="Gallery Img">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <img src="./sources/src3.jpeg" alt="Gallery Img">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <img src="./sources/src3.jpeg" alt="Gallery Img">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <img src="./sources/src3.jpeg" alt="Gallery Img">
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-lg-6">
-                                <img src="./sources/src3.jpeg" alt="Gallery Img">
+                            <div class="col-lg-4 about-gallery">
+                                <h1>Paintings</h1>
+                                <div class="row each-gallery">
+                                    <div class="col-lg-6">
+                                        <img src="./sources/src3.jpeg" alt="Gallery Img">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <img src="./sources/src3.jpeg" alt="Gallery Img">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <img src="./sources/src3.jpeg" alt="Gallery Img">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <img src="./sources/src3.jpeg" alt="Gallery Img">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <img src="./sources/src3.jpeg" alt="Gallery Img">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <img src="./sources/src3.jpeg" alt="Gallery Img">
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-lg-6">
-                                <img src="./sources/src3.jpeg" alt="Gallery Img">
+                            <div class="col-lg-4 about-gallery">
+                                <h1>Videography</h1>
+                                <div class="row each-gallery">
+                                    <div class="col-lg-6">
+                                        <img src="./sources/src3.jpeg" alt="Gallery Img">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <img src="./sources/src3.jpeg" alt="Gallery Img">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <img src="./sources/src3.jpeg" alt="Gallery Img">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <img src="./sources/src3.jpeg" alt="Gallery Img">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <img src="./sources/src3.jpeg" alt="Gallery Img">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <img src="./sources/src3.jpeg" alt="Gallery Img">
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-lg-6">
-                                <img src="./sources/src3.jpeg" alt="Gallery Img">
-                            </div>
-                            <div class="col-lg-6">
-                                <img src="./sources/src3.jpeg" alt="Gallery Img">
-                            </div>
-                            <div class="col-lg-6">
-                                <img src="./sources/src3.jpeg" alt="Gallery Img">
-                            </div>
+
                         </div>
                     </div>
-                    <div class="col-lg-4 about-gallery">
-                        <h1>Videography</h1>
-                        <div class="row each-gallery">
-                            <div class="col-lg-6">
-                                <img src="./sources/src3.jpeg" alt="Gallery Img">
-                            </div>
-                            <div class="col-lg-6">
-                                <img src="./sources/src3.jpeg" alt="Gallery Img">
-                            </div>
-                            <div class="col-lg-6">
-                                <img src="./sources/src3.jpeg" alt="Gallery Img">
-                            </div>
-                            <div class="col-lg-6">
-                                <img src="./sources/src3.jpeg" alt="Gallery Img">
-                            </div>
-                            <div class="col-lg-6">
-                                <img src="./sources/src3.jpeg" alt="Gallery Img">
-                            </div>
-                            <div class="col-lg-6">
-                                <img src="./sources/src3.jpeg" alt="Gallery Img">
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </div>
@@ -158,25 +174,28 @@
                 <div class="row events-expand expanding">
                     <div class="col-lg-12 events-card-cont">
                         <div class="event-card">
-                            <h2>Event 1</h2>
-                            <br>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the
-                                majority have suffered alteration in some form, by injected humour, or
-                                randomised words which don't look even slightly believable.
+                            <h2>The War Of The Worlds</h2>
+                            <p><center><b>Film Debate</b></center></br>
+                                Films have always been an area of significant controversies.
+                                Choose your side and give it a voice. Be a part of the Film Debate.
                             </p>
                             <br>
-                            <center><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Know More</button></center>
+                            <center><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal1">Know More</button></center>
                             <!-- Modal -->
-                            <div class="modal fade" id="myModal" role="dialog">
+                            <div class="modal fade" id="myModal1" role="dialog">
                                 <div class="modal-dialog">
                                     <!-- Modal content-->
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h4 class="modal-title">Event Header</h4>
-                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            <h4 class="modal-title">The War Of The Worlds</h4>
+                                            <button type="button" class="close" data-dismiss="modal1">&times;</button>
                                         </div>
                                         <div class="modal-body">
-                                            <p>Some text in the modal.</p>
+                                            <p><b>Date :</b> 04.04.2019</p>
+                                            <p><b>Time :</b> 12:00 pm - 4:00 pm</p>
+                                            <p><b>Venue :</b> CB 604</p>
+                                            <p><b>Registration Fee :</b> ₹ 200 (group registration – group of 2)</p>
+                                            <p><b>Description :</b> Films have always been an area of significant controversies. Choose your side and give it a voice. Be a part of the Film Debate.</p>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -187,25 +206,28 @@
                         </div>
 
                         <div class="event-card">
-                            <h2>Event 2</h2>
-                            <br>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the
-                                majority have suffered alteration in some form, by injected humour, or
-                                randomised words which don't look even slightly believable.
+                            <h2>Filmistaan</h2>
+                            <p><center><b>Film Quiz</b></center></br>
+                                Battle of the intellectuals and the knowledgeable has never took
+                                this turn before. Let your inner film-geek triumph. We invite you to the Film Quiz.
                             </p>
                             <br>
-                            <center><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Know More</button></center>
+                            <center><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal2">Know More</button></center>
                             <!-- Modal -->
-                            <div class="modal fade" id="myModal" role="dialog">
+                            <div class="modal fade" id="myModal2" role="dialog">
                                 <div class="modal-dialog">
                                     <!-- Modal content-->
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h4 class="modal-title">Event Header</h4>
+                                            <h4 class="modal-title">Filmistaan</h4>
                                             <button type="button" class="close" data-dismiss="modal">&times;</button>
                                         </div>
                                         <div class="modal-body">
-                                            <p>Some text in the modal.</p>
+                                            <p><b>Date :</b> 04.04.2019</p>
+                                            <p><b>Time :</b> 01:00 pm - 4:00 pm</p>
+                                            <p><b>Venue :</b> A Building , Seminar Hall</p>
+                                            <p><b>Registration Fee :</b> ₹ 200 (group registration – group of 2)</p>
+                                            <p><b>Description :</b> Battle of the intellectuals and the knowledgeable has never took this turn before. Let your inner film-geek triumph. We invite you to the Film Quiz.</p>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -216,114 +238,28 @@
                         </div>
 
                         <div class="event-card">
-                            <h2>Event 3</h2>
-                            <br>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the
-                                majority have suffered alteration in some form, by injected humour, or
-                                randomised words which don't look even slightly believable.
+                            <h2>Kya Kheyal Hai Janab Ka?</h2>
+                            <p><center><b>Film Review Competition</b></center></br>
+                                Let your pen be the weapon of choice and your intellect
+                                the medium of acute criticisms. We invite you to the Film Review Competition.
                             </p>
                             <br>
-                            <center><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Know More</button></center>
+                            <center><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal3">Know More</button></center>
                             <!-- Modal -->
-                            <div class="modal fade" id="myModal" role="dialog">
+                            <div class="modal fade" id="myModal3" role="dialog">
                                 <div class="modal-dialog">
                                     <!-- Modal content-->
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h4 class="modal-title">Event Header</h4>
+                                            <h4 class="modal-title">Kya Kheyal Hai Janab Ka?</h4>
                                             <button type="button" class="close" data-dismiss="modal">&times;</button>
                                         </div>
                                         <div class="modal-body">
-                                            <p>Some text in the modal.</p>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-12 events-card-cont">
-                        <div class="event-card">
-                            <h2>Event 4</h2>
-                            <br>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the
-                                majority have suffered alteration in some form, by injected humour, or
-                                randomised words which don't look even slightly believable.
-                            </p>
-                            <br>
-                            <center><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Know More</button></center>
-                            <!-- Modal -->
-                            <div class="modal fade" id="myModal" role="dialog">
-                                <div class="modal-dialog">
-                                    <!-- Modal content-->
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h4 class="modal-title">Event Header</h4>
-                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <p>Some text in the modal.</p>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="event-card">
-                            <h2>Event 5</h2>
-                            <br>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the
-                                majority have suffered alteration in some form, by injected humour, or
-                                randomised words which don't look even slightly believable.
-                            </p>
-                            <br>
-                            <center><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Know More</button></center>
-                            <!-- Modal -->
-                            <div class="modal fade" id="myModal" role="dialog">
-                                <div class="modal-dialog">
-                                    <!-- Modal content-->
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h4 class="modal-title">Event Header</h4>
-                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <p>Some text in the modal.</p>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="event-card">
-                            <h2>Event 6</h2>
-                            <br>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the
-                                majority have suffered alteration in some form, by injected humour, or
-                                randomised words which don't look even slightly believable.
-                            </p>
-                            <br>
-                            <center><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Know More</button></center>
-                            <!-- Modal -->
-                            <div class="modal fade" id="myModal" role="dialog">
-                                <div class="modal-dialog">
-                                    <!-- Modal content-->
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h4 class="modal-title">Event Header</h4>
-                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <p>Some text in the modal.</p>
+                                            <p><b>Date :</b> 06.04.2019</p>
+                                            <p><b>Time :</b> 01:00 pm - 3:30 pm</p>
+                                            <p><b>Venue :</b> CB 416</p>
+                                            <p><b>Registration Fee :</b> ₹ 100</p>
+                                            <p><b>Description :</b> Let your pen be the weapon of choice and your intellect the medium of acute criticisms. We invite you to the Film Review Competition.</p>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -336,25 +272,29 @@
 
                     <div class="col-lg-12 events-card-cont">
                         <div class="event-card">
-                            <h2>Event 7</h2>
-                            <br>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the
-                                majority have suffered alteration in some form, by injected humour, or
-                                randomised words which don't look even slightly believable.
+                            <h2>Shutter</h2>
+                            <p><center><b>Photography Workshop</b></center></br>
+                                There is no right or wrong time to start. So let your ambition take shape
+                                and it starts from just right here. We invite you to the Photography Workshop
+                                conducted by the Calcutta Instagrammers.
                             </p>
                             <br>
-                            <center><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Know More</button></center>
+                            <center><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal4">Know More</button></center>
                             <!-- Modal -->
-                            <div class="modal fade" id="myModal" role="dialog">
+                            <div class="modal fade" id="myModal4" role="dialog">
                                 <div class="modal-dialog">
                                     <!-- Modal content-->
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h4 class="modal-title">Event Header</h4>
+                                            <h4 class="modal-title">Shutter</h4>
                                             <button type="button" class="close" data-dismiss="modal">&times;</button>
                                         </div>
                                         <div class="modal-body">
-                                            <p>Some text in the modal.</p>
+                                            <p><b>Date :</b> 06.04.2019</p>
+                                            <p><b>Time :</b> 11:00 am</p>
+                                            <p><b>Venue :</b> SV Auditorium</p>
+                                            <p><b>Registration Fee :</b> ₹ 0</p>
+                                            <p><b>Description :</b> There is no right or wrong time to start. So let your ambition take shape and it starts from just right here. We invite you to the Photography Workshop conducted by Calcutta Instagrammers.</p>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -365,25 +305,28 @@
                         </div>
 
                         <div class="event-card">
-                            <h2>Event 8</h2>
-                            <br>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the
-                                majority have suffered alteration in some form, by injected humour, or
-                                randomised words which don't look even slightly believable.
+                            <h2>Shutter Island</h2>
+                            <p><center><b>On The Spot Photography Competition</b></center></br>
+                                Aperture. Shutter speed. ISO. Metering. Exposure. Does these words excite you and
+                                turns on the control-freak in you? Then, we invite you to the On-Spot Photography Competition.
                             </p>
                             <br>
-                            <center><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Know More</button></center>
+                            <center><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal5">Know More</button></center>
                             <!-- Modal -->
-                            <div class="modal fade" id="myModal" role="dialog">
+                            <div class="modal fade" id="myModal5" role="dialog">
                                 <div class="modal-dialog">
                                     <!-- Modal content-->
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h4 class="modal-title">Event Header</h4>
+                                            <h4 class="modal-title">Shutter Island</h4>
                                             <button type="button" class="close" data-dismiss="modal">&times;</button>
                                         </div>
                                         <div class="modal-body">
-                                            <p>Some text in the modal.</p>
+                                            <p><b>Date :</b> 05.04.2019</p>
+                                            <p><b>Time :</b> 11:00 am</p>
+                                            <p><b>Venue :</b> HIT Campus</p>
+                                            <p><b>Registration Fee :</b> ₹ 100</p>
+                                            <p><b>Description :</b> Aperture. Shutter speed. ISO. Metering. Exposure. Does these words excite you and turns on the control-freak in you? Then, we invite you to the On-Spot Photography Competition.</p>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -394,25 +337,62 @@
                         </div>
 
                         <div class="event-card">
-                            <h2>Event 9</h2>
-                            <br>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the
-                                majority have suffered alteration in some form, by injected humour, or
-                                randomised words which don't look even slightly believable.
+                            <h2>Shob Choritro Kalponik</h2>
+                            <p><center><b>Painting Competition</b></center></br>
+                                Psychology says that people who draw and paint become composed. How composed
+                                are you? Let yourself be the judge. Welcome to the Painting Competition.
                             </p>
                             <br>
-                            <center><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Know More</button></center>
+                            <center><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal6">Know More</button></center>
                             <!-- Modal -->
-                            <div class="modal fade" id="myModal" role="dialog">
+                            <div class="modal fade" id="myModal6" role="dialog">
                                 <div class="modal-dialog">
                                     <!-- Modal content-->
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h4 class="modal-title">Event Header</h4>
+                                            <h4 class="modal-title">Shob Choritro Kalponik</h4>
                                             <button type="button" class="close" data-dismiss="modal">&times;</button>
                                         </div>
                                         <div class="modal-body">
-                                            <p>Some text in the modal.</p>
+                                            <p><b>Date :</b> 06.04.2019</p>
+                                            <p><b>Time :</b> 01:30 pm to 03:00 pm</p>
+                                            <p><b>Venue :</b> Executive Hall</p>
+                                            <p><b>Registration Fee :</b> ₹ 100</p>
+                                            <p><b>Description :</b> Psychology says that people who draw and paint become composed. How composed are you? Let yourself be the judge. Welcome to the Painting Competition.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12 events-card-cont">
+                        <div class="event-card">
+                            <h2>Kahaani</h2>
+                            <p><center><b>Photo Story Competition</b></center></br>
+                                At the end of the day, what we make and experience are just stories,
+                                new and old, timid and bold. What is your story? Tell us, in the Photo Story Competition.
+                            </p>
+                            <br>
+                            <center><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal7">Know More</button></center>
+                            <!-- Modal -->
+                            <div class="modal fade" id="myModal7" role="dialog">
+                                <div class="modal-dialog">
+                                    <!-- Modal content-->
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Kahaani</h4>
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p><b>Date :</b> 05.04.2019</p>
+                                            <p><b>Time :</b> 11:30 am</p>
+                                            <p><b>Venue :</b> Executive Hall</p>
+                                            <p><b>Registration Fee :</b> ₹ 200</p>
+                                            <p><b>Description :</b> At the end of the day, what we make and experience are just stories, new and old, timid and bold. What is your story? Tell us, in the Photo Story Competition.</p>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -423,25 +403,95 @@
                         </div>
 
                         <div class="event-card">
-                            <h2>Event 10</h2>
-                            <br>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the
-                                majority have suffered alteration in some form, by injected humour, or
-                                randomised words which don't look even slightly believable.
+                            <h2>Chotoder Chobi</h2>
+                            <p><center><b>Short Film Competition</b></center></br>
+                                Sometimes, the small things are the things that matter the most and tell
+                                us a better story . Show-off your team’s film making skills in the Short Film Competition.
                             </p>
                             <br>
-                            <center><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Know More</button></center>
+                            <center><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal8">Know More</button></center>
                             <!-- Modal -->
-                            <div class="modal fade" id="myModal" role="dialog">
+                            <div class="modal fade" id="myModal8" role="dialog">
                                 <div class="modal-dialog">
                                     <!-- Modal content-->
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h4 class="modal-title">Event Header</h4>
+                                            <h4 class="modal-title">Chotoder Chobi</h4>
                                             <button type="button" class="close" data-dismiss="modal">&times;</button>
                                         </div>
                                         <div class="modal-body">
-                                            <p>Some text in the modal.</p>
+                                            <p><b>Date :</b> 05.04.2019</p>
+                                            <p><b>Time :</b> 10:00 am</p>
+                                            <p><b>Venue :</b> THA Auditorium</p>
+                                            <p><b>Registration Fee :</b> ₹ 1000</p>
+                                            <p><b>Description :</b> Sometimes, the small things are the things that matter the most and tell us a better story . Show-off your team’s film making skills in the Short Film Competition.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="event-card">
+                            <h2>Chaya-O-Chobi</h2>
+                            <p><center><b>Short Film Competition</b></center></br>
+                                Movies have and will always be a crucial part in not just shaping a person but also an
+                                era as well. Acknowledge the various eras. Welcome to the Movie Screenings.
+                            </p>
+                            <br>
+                            <center><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal9">Know More</button></center>
+                            <!-- Modal -->
+                            <div class="modal fade" id="myModal9" role="dialog">
+                                <div class="modal-dialog">
+                                    <!-- Modal content-->
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Chaya-O-Chobi</h4>
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p><b>Date & Time :</b></br>
+                                                04.04.19 / 12.00pm-5:00pm
+                                                05.04.19 / 3:30pm-6:00pm
+                                                06.04.19 / 11:00pm-5:00pm
+                                            </p>
+                                            <p><b>Venue :</b> THA Auditorium</p>
+                                            <p><b>Registration Fee :</b> ₹ 0</p>
+                                            <p><b>Description :</b> Movies have and will always be a crucial part in not just shaping a person but also an era as well. Acknowledge the various eras. Welcome to the Movie Screenings.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="event-card">
+                            <h2>Baar Baar Dekho</h2>
+                            <p><center><b>Exhibition</b></center></br>
+                                Let others view the world from your perspective. Let others see the little
+                                details they have missed that you took a notice of. We invite you to the Exhibition.
+                            </p>
+                            <br>
+                            <center><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal10">Know More</button></center>
+                            <!-- Modal -->
+                            <div class="modal fade" id="myModal10" role="dialog">
+                                <div class="modal-dialog">
+                                    <!-- Modal content-->
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Baar Baar Dekho</h4>
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p><b>Date :</b> 05.04.2019</p>
+                                            <p><b>Time :</b> 11:30 am to 01:30 pm</p>
+                                            <p><b>Venue :</b> Executive Hall</p>
+                                            <p><b>Registration Fee :</b> ₹ 0</p>
+                                            <p><b>Description :</b> Let others view the world from your perspective. Let others see the little details they have missed that you took a notice of. We invite you to the Exhibition.</p>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -457,7 +507,7 @@
         </div>
 
         <div class="row">
-            <div class="col-lg-12 our-collab">
+            <div id="our-coll" class="col-lg-12 our-collab">
                 <div class="row">
                     <div class="col-lg-12 our-collab-header">
                         <h1>OUR COLLABORATORS</h1>
@@ -468,7 +518,7 @@
                         <img src="./sources/cal_ig.jpeg" alt="Calcutta IG'ers Logo"> &nbsp;&nbsp;&nbsp;&nbsp;
                         <h1>Shutter </br> <span style="font-size:2.5vh;">(Photography Workshop)</span></h1>
                     </div>
-                    <div class="col-lg-12 our-collab-igers">
+                    <!--div class="col-lg-12 our-collab-igers">
                         <div class="collab-card">
                             <img src="./sources/sammaya.png" alt="">
                             <div class="collab-desc">
@@ -504,7 +554,7 @@
                                 <h4>Sample Desc</h4>
                             </div>
                         </div>
-                    </div>
+                    </div-->
                 </div>
             </div>
         </div>
