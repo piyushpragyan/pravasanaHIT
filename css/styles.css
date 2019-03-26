@@ -150,10 +150,11 @@ body {
 }
 
 .about-gallery {
-    border: 1px solid rgb(230, 230, 230);
     padding: 0;
     min-height: 25vh;
     transition: 0.4s;
+    border-left: 1px solid rgb(230, 230, 230);
+    border-right: 1px solid rgb(230, 230, 230);
 }
 
 .about-gallery:hover {
@@ -193,7 +194,7 @@ body {
 }
 
 .expanding {
-    background-color: rgb(224, 224, 224);
+    background-color: rgb(185, 34, 92);
 }
 
 .events-expand {
@@ -247,7 +248,7 @@ body {
     background-color: rgb(0, 0, 0);
     -webkit-box-shadow: 3px 6px 28px -7px rgba(0,0,0,0.75);
     -moz-box-shadow: 3px 6px 28px -7px rgba(0,0,0,0.75);
-    box-shadow: 3px 6px 28px -7px rgba(0,0,0,0.75);
+    box-shadow: 3px 6px 28px -7px rgba(0, 0, 0, 0.918);
     transition: 0.3s;
 }
 
