@@ -1,9 +1,9 @@
 (function () {
     // to hide the loader
-    window.addEventListener("load", function () {
+    setTimeout(function () {
         const loader = document.querySelector(".loader");
         loader.className += " hidden";
-    });
+    }, 4500);
 
     document.addEventListener("DOMContentLoaded", function () {
 
@@ -19,7 +19,7 @@
             expandButton.innerHTML = "Collapse ↑";
         });
 
-                /* ANIMATION DEFINITIONS */
+            /* ANIMATION DEFINITIONS */
 
             // initializing scroll magic
             let controller = new ScrollMagic.Controller();
@@ -50,9 +50,6 @@
 
 
         /* END OF ANIMATION DEFINITIONS */
-
-
-
 
     });
 
