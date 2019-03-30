@@ -649,21 +649,21 @@ footer a, footer a:visited {
     }
 
     #top-button {
-        bottom: 25px;
+        top: 25px;
         right: 25px;
         font-size: 2.8vh;
         padding: 12px 18px;
     }
 
     #the-home {
-        bottom: 14vh;
+        top: 14vh;
         right: 25px;
         font-size: 2.8vh;
         padding: 12px 18px;
     }
 
     #the-top {
-        bottom: 24vh;
+        top: 24vh;
         right: 25px;
         font-size: 2.8vh;
         padding: 12px 18px;
