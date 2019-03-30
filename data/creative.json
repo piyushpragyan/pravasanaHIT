@@ -1,0 +1,22 @@
+[
+    {
+        "name" : "Rounak Tikadar",
+        "post" : "Design Head",
+        "year" : "CSE 3rd",
+        "img" : "../sources/team/Creative/Rounak Tikadar-min.png",
+        "linkedIn" : "",
+        "facebook" : "https://www.facebook.com/rounak.tikadar",
+        "instagram" : "www.google.com"
+    },
+
+    {
+        "name" : "Subhrojit Majumdar",
+        "post" : "Shutter",
+        "year" : "CSE 3rd",
+        "img" : "../sources/team/Coordinator/Subhrojit Majumdar-min.jpeg",
+        "linkedIn" : "www.google.com",
+        "facebook" : "https://www.facebook.com/subhrojit.majumdar",
+        "instagram" : "www.google.com"
+    }
+
+]

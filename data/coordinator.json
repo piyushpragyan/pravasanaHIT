@@ -1,0 +1,225 @@
+[
+
+    {
+        "name" : "Anwesha Chatterjee",
+        "post" : "Baar Baar Dekho",
+        "year" : "BT 3rd",
+        "img" : "../sources/team/Coordinator/Anwesha Chatterjee-min.jpg",
+        "linkedIn" : "none",
+        "facebook" : "https://www.facebook.com/anwesha.chatterjee.330",
+        "instagram" : "www.google.com"
+    },
+
+    {
+        "name" : "Sweta Mondal",
+        "post" : "Baar Baar Dekho",
+        "year" : "BT 3rd",
+        "img" : "../sources/team/Coordinator/Sweta Mondal-min.jpeg",
+        "linkedIn" : "www.google.com",
+        "facebook" : "https://www.facebook.com/sweta.mondal.1",
+        "instagram" : "www.google.com"
+    },
+
+    {
+        "name" : "Abhishek Sen",
+        "post" : "War Of The Worlds",
+        "year" : "CSE 1st",
+        "img" : "../sources/team/Coordinator/Abhishek Sen-min.jpg",
+        "linkedIn" : "www.google.com",
+        "facebook" : "https://www.facebook.com/abhisheksen.theone",
+        "instagram" : "www.google.com"
+    },
+
+    {
+        "name" : "Ritwija Panda",
+        "post" : "War Of The Worlds",
+        "year" : "CHEM 2nd",
+        "img" : "../sources/team/Coordinator/Ritwija Panda-min.jpeg",
+        "linkedIn" : "www.google.com",
+        "facebook" : "https://www.facebook.com/ritwija.panda",
+        "instagram" : "www.google.com"
+    },
+
+    {
+        "name" : "Pranit Adhikary",
+        "post" : "Filmistaan",
+        "year" : "AEIE 1st",
+        "img" : "../sources/team/Coordinator/Pranit Adhikary ( Club Coordinator )-min.jpg",
+        "linkedIn" : "www.google.com",
+        "facebook" : "https://www.facebook.com/pranit.adhikary.98",
+        "instagram" : "www.google.com"
+    },
+
+    {
+        "name" : "Srinjoy Ghosh",
+        "post" : "Filmistaan",
+        "year" : "CSE 4alth",
+        "img" : "../sources/team/Coordinator/Srinjoy Ghosh-min.jpg",
+        "linkedIn" : "www.google.com",
+        "facebook" : "https://www.facebook.com/srinjoy.ghosh.37",
+        "instagram" : "www.google.com"
+    },
+
+    {
+        "name" : "Diya Banerjee",
+        "post" : "Kya Khayal Hain Janab Ka ?  ",
+        "year" : "CSE 1st",
+        "img" : "../sources/team/Coordinator/Diya Banerjee-min.jpg",
+        "linkedIn" : "www.google.com",
+        "facebook" : "https://www.facebook.com/sand.storm.99",
+        "instagram" : "www.google.com"
+    },
+
+    {
+        "name" : "Manish Sarkar",
+        "post" : "Kya Khayal Hain Janab Ka ? ",
+        "year" : "ECE 4th",
+        "img" : "../sources/team/Coordinator/Manish Sarkar-min.JPG",
+        "linkedIn" : "www.google.com",
+        "facebook" : "https://www.facebook.com/manish.sarkar.222",
+        "instagram" : "www.google.com"
+    },
+
+    {
+        "name" : "Rashmi Mitra",
+        "post" : "CHAYA-O-CHOBI ",
+        "year" : "MECH 3rd",
+        "img" : "../sources/team/Coordinator/Rashmi Mitra-min.jpg",
+        "linkedIn" : "www.google.com",
+        "facebook" : "https://www.facebook.com/rashmi.mitra.31",
+        "instagram" : "www.google.com"
+    },
+
+    {
+        "name" : "Riya Dutt",
+        "post" : "CHAYA-O-CHOBI",
+        "year" : "BT 2nd",
+        "img" : "../sources/team/Coordinator/Riya Dutt-min.jpg",
+        "linkedIn" : "www.google.com",
+        "facebook" : "https://www.facebook.com/profile.php?id=100004589715556",
+        "instagram" : "www.google.com"
+    },
+
+    {
+        "name" : "Sandipan Rakshit",
+        "post" : "CHAYA-O-CHOBI",
+        "year" : "MECH 3rd",
+        "img" : "../sources/team/Coordinator/Sandipan Rakshit-min.jpg",
+        "linkedIn" : "www.google.com",
+        "facebook" : "https://www.facebook.com/sandipan.rakshit.1",
+        "instagram" : "www.google.com"
+    },
+
+    {
+        "name" : "Souparno Mondal",
+        "post" : "CHAYA-O-CHOBI",
+        "year" : "MECH 2nd",
+        "img" : "../sources/team/Coordinator/Souparno Mondal-min.jpeg",
+        "linkedIn" : "www.google.com",
+        "facebook" : "https://www.facebook.com/swabha.sarna",
+        "instagram" : "www.google.com"
+    },
+
+    {
+        "name" : "Ishika Mukherjee",
+        "post" : "Shob Choritro Kalponik",
+        "year" : "CHEM 2nd",
+        "img" : "../sources/team/Coordinator/Ishika Mukherjee-min.jpeg",
+        "linkedIn" : "www.google.com",
+        "facebook" : "https://www.facebook.com/ishika.mukherjee.92754",
+        "instagram" : "www.google.com",
+        "orient" : "true"
+    },
+
+    {
+        "name" : "Panini Paul",
+        "post" : "Shob Choritro Kalponik",
+        "year" : "MECH 2nd",
+        "img" : "../sources/team/Coordinator/Panini Paul-min.jpeg",
+        "linkedIn" : "www.google.com",
+        "facebook" : "https://www.facebook.com/profile.php?id=100010516413132",
+        "instagram" : "www.google.com",
+        "orient" : "true"
+    },
+
+    {
+        "name" : "Durba Das",
+        "post" : "Kahaani",
+        "year" : "MECH 2nd",
+        "img" : "../sources/team/Coordinator/Durba Das-min.jpg",
+        "linkedIn" : "www.google.com",
+        "facebook" : "https://www.facebook.com/profile.php?id=100010419616637",
+        "instagram" : "www.google.com"
+    },
+
+    {
+        "name" : "Kalpesh Saha",
+        "post" : "Kahaani",
+        "year" : "BT 1st",
+        "img" : "../sources/team/Coordinator/Kalpesh Saha-min.JPG",
+        "linkedIn" : "www.google.com",
+        "facebook" : "https://www.facebook.com/kalpesh.saha.31",
+        "instagram" : "www.google.com"
+    },
+
+    {
+        "name" : "Mohini Sharma",
+        "post" : "Shutter Island",
+        "year" : "CSE 1st",
+        "img" : "../sources/team/Coordinator/Mohini Sharma-min.jpeg",
+        "linkedIn" : "www.google.com",
+        "facebook" : "",
+        "instagram" : "www.google.com"
+    },
+
+    {
+        "name" : "Saikat Kundu",
+        "post" : "Shutter Island",
+        "year" : "CSE 2nd",
+        "img" : "../sources/team/Coordinator/Saikat Kundu-min.jpg",
+        "linkedIn" : "www.google.com",
+        "facebook" : "https://www.facebook.com/saikat.kundu.16",
+        "instagram" : "www.google.com"
+    },
+
+    {
+        "name" : "Pusan Chaterjee",
+        "post" : "Shutter",
+        "year" : "CSE 2nd",
+        "img" : "../sources/team/Coordinator/Pusan Chaterjee-min.jpeg",
+        "linkedIn" : "www.google.com",
+        "facebook" : "https://www.facebook.com/profile.php?id=100009163343980",
+        "instagram" : "www.google.com"
+    },
+
+    {
+        "name" : "Subhrojit Majumdar",
+        "post" : "Shutter",
+        "year" : "CSE 3rd",
+        "img" : "../sources/team/Coordinator/Subhrojit Majumdar-min.jpeg",
+        "linkedIn" : "www.google.com",
+        "facebook" : "https://www.facebook.com/subhrojit.majumdar",
+        "instagram" : "www.google.com"
+    },
+
+    {
+        "name" : "Suparno Banerjee",
+        "post" : "Chotoder Chobi",
+        "year" : "CSE 4th",
+        "img" : "../sources/team/Coordinator/Suparno Banerjee-min.JPG",
+        "linkedIn" : "www.google.com",
+        "facebook" : "https://www.facebook.com/suparnotito",
+        "instagram" : "www.google.com"
+    },
+
+    {
+        "name" : "Arijit Choudhury",
+        "post" : "Chotoder Chobi",
+        "year" : "CSE 2nd",
+        "img" : "../sources/team/Coordinator/Arijit Choudhury-min.jpg",
+        "linkedIn" : "www.google.com",
+        "facebook" : "https://www.facebook.com/profile.php?id=100010419616637",
+        "instagram" : "www.google.com"
+    }
+
+]

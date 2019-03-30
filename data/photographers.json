@@ -1,0 +1,21 @@
+[
+    {
+        "name" : "Srijan Nag",
+        "post" : "Official Photographer",
+        "year" : "CSE 3rd",
+        "img" : "../sources/team/Photographer/Srijan Nag-min.jpg",
+        "linkedIn" : "",
+        "facebook" : "https://www.facebook.com/profile.php?id=100007819095140",
+        "instagram" : "www.google.com"
+    },
+
+    {
+        "name" : "Sanchari Sen",
+        "post" : "Official Photographer",
+        "year" : "BT 1st",
+        "img" : "../sources/team/Photographer/Sanchari Sen-min.jpg",
+        "linkedIn" : "",
+        "facebook" : "https://www.facebook.com/se.sanchari.391",
+        "instagram" : "www.google.com"
+    }
+]

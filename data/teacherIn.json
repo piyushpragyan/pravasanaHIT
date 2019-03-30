@@ -1,0 +1,42 @@
+[
+    {
+        "name" : "Someone Beautiful",
+        "post" : "Co-ordinator",
+        "year" : "CSE 2nd",
+        "img" : "../sources/src2.jpg",
+        "linkedIn" : "www.google.com",
+        "facebook" : "www.google.com",
+        "instagram" : "www.google.com"
+    },
+
+    {
+        "name" : "Someone Very Beautiful",
+        "post" : "Head Co-ordinator",
+        "year" : "CSE 3rd",
+        "img" : "../sources/bgsrc.jpeg",
+        "linkedIn" : "www.google.com",
+        "facebook" : "www.google.com",
+        "instagram" : "www.google.com"
+    },
+
+    {
+        "name" : "Someone Beautiful",
+        "post" : "Co-ordinator",
+        "year" : "CSE 2nd",
+        "img" : "../sources/src2.jpg",
+        "linkedIn" : "www.google.com",
+        "facebook" : "www.google.com",
+        "instagram" : "www.google.com"
+    },
+
+    {
+        "name" : "Someone Very Beautiful",
+        "post" : "Head Co-ordinator",
+        "year" : "CSE 3rd",
+        "img" : "../sources/bgsrc.jpeg",
+        "linkedIn" : "www.google.com",
+        "facebook" : "www.google.com",
+        "instagram" : "www.google.com"
+    }
+
+]

@@ -1,0 +1,172 @@
+
+.container-fluid {
+    padding: 0;
+}
+
+/* START OF TEAM */
+
+.team-section {
+    margin: 0;
+    min-height: 100vh;
+    padding: 10vh 0;
+    width: 100%;
+    background: #ED213A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.team-header {
+    padding: 0;
+    width: 100%;
+}
+
+.team-links {
+    font-size: 1vh;
+    color: red;
+}
+
+.team-header h1 {
+    margin: 0 auto 10vh auto;
+    color: #ffffffce;
+    font-size: 8vh;
+    font-weight: 400;
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+}
+
+.team-adhoc h1 {
+    margin: 8vh auto;
+    color: #ffffffce;
+    font-size: 6vh;
+    font-weight: 400;
+    font-family: 'Cardo', serif;
+    text-align: center;
+}
+
+.adhoc {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.adhoc .card, .adhoc .card-50 {
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Playfair Display', serif;
+    background-color: #ffffffce;
+    transition: 0.5s;
+    border: #000000 2.5px solid;
+    box-shadow: 7px 15px 37px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 15px 37px -12px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 7px 15px 37px -12px rgba(0,0,0,0.75);
+}
+
+.card img , .card-50 img {
+    width: 100%;
+    height: 35vh;
+    margin-bottom: 2.5vh;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom: 2px solid black;
+}
+
+.img-cont {
+    width: 100%;
+}
+
+.adhoc .card:hover {
+    box-shadow: 7px 15px 37px -21px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 15px 37px -21px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 7px 15px 37px -21px rgba(0,0,0,0.75);
+}
+
+.team-links i.fab {
+    padding: 2px;
+    color: black;
+    font-size: 22px;
+}
+
+footer a, footer a:visited {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* END OF TEAM */
+
+
+/* Small Screens */
+
+@media screen and (max-width: 720px) {
+    .adhoc .card, .card-50 {
+        width: 70%;
+        min-height: 8vh;
+        margin: 11vh 0vw;
+        display: inline-block;
+    }
+
+    .card h1, .card-50 h1 {
+        font-size: 4vh;
+    }
+
+    .card h2, .card-50 h2 {
+        font-size: 3.5vh;
+    }
+
+    .card h3, .card-50 h3 {
+        font-size: 3vh;
+    }
+
+    .card h4, .card-50 h4 {
+        font-size: 2.5vh;
+    }
+
+}
+
+/* Large screens */
+
+@media screen and (min-width: 720px) {
+    .adhoc .card {
+        min-height: 2vh;
+        width: 20%;
+        margin: 5vh 5vw;
+        padding-top: 0vh;
+        padding-bottom: 0vh;
+        padding-left: 0vw;
+        padding-right: 0vw;
+        display: inline-block;
+    }
+
+    .adhoc .card-50 {
+        min-height: 2vh;
+        width: 40%;
+        margin: 5vh 5vw;
+        padding-top: 0vh;
+        padding-bottom: 0vh;
+        padding-left: 0vw;
+        padding-right: 0vw;
+        display: inline-block;
+    }
+
+    .card h1, .card-50 h1 {
+        font-size: 2.5vh;
+    }
+
+    .card h2, .card-50 h2 {
+        font-size: 2vh;
+        margin-bottom: 2.5vh;
+    }
+
+    .card h3, .card-50 h3 {
+        font-size: 2vh;
+    }
+
+    .card h4, .card-50 h4 {
+        font-size: 2vh;
+    }
+}

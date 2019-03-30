@@ -1,0 +1,21 @@
+[
+    {
+        "name" : "Sourav Chakrabortty",
+        "post" : "Teacher Incharge",
+        "year" : "",
+        "img" : "../sources/team/teachers/Sir Sourav Chakrabortty.jpg",
+        "linkedIn" : "",
+        "facebook" : "https://www.facebook.com/sourav.chakrabortty.73",
+        "instagram" : "www.google.com"
+    },
+
+    {
+        "name" : "Susobhan Baidya",
+        "post" : "Teacher Incharge",
+        "year" : "",
+        "img" : "../sources/team/teachers/Sir Susobhan Baidya.jpg",
+        "linkedIn" : "www.google.com",
+        "facebook" : "https://www.facebook.com/susobhan2011",
+        "instagram" : "www.google.com"
+    }
+]

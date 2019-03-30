@@ -1,0 +1,21 @@
+[
+    {
+        "name" : "Avisri Nandi",
+        "post" : "Logistics Head",
+        "year" : "CSE 4th",
+        "img" : "../sources/team/Logistics/Avisri Nandi ( Club Coordinator )-min.jpeg",
+        "linkedIn" : "none",
+        "facebook" : "https://www.facebook.com/avisri.nandi",
+        "instagram" : "www.google.com"
+    },
+
+    {
+        "name" : "Billodal Roy",
+        "post" : "Logistics Head",
+        "year" : "BT 2nd",
+        "img" : "../sources/team/Logistics/Billodal Roy ( Club Coordinator )-min.JPG",
+        "linkedIn" : "none",
+        "facebook" : "https://www.facebook.com/billodalroy",
+        "instagram" : "www.google.com"
+    }
+]

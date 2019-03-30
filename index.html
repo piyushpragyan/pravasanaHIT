@@ -23,13 +23,16 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/debug.addIndicators.min.js"></script>
 
+    <!-- font awesome CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
     <!-- google fonts cdn -->
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cardo" rel="stylesheet">
 
     <!-- internal files -->
     <script src="./js/script.js"></script>
-    <link rel="stylesheet" href="./css/styles.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
 
@@ -39,7 +42,7 @@
 
     <div class="container-fluid" style="padding: 0px;">
 
-        <div class="row">
+        <div id="header" class="row">
             <div class="col-lg-12 landing">
                 <div class="landing-logo">
                     <div class="landing-img">
@@ -89,7 +92,7 @@
             </div>
         </div>
 
-        <div class="row events">
+        <div id="our-events" class="row events">
             <div class="col-lg-12" style="padding: 0px;">
                 <div class="row">
                     <div class="col-lg-12 events-header">
@@ -99,10 +102,9 @@
                 <div class="row">
                     <div class="col-lg-12 event-utsav">
                         <img src="./sources/logo.png" alt="">
-                        <button>Expand ↓</button>
                     </div>
                 </div>
-                <div class="row events-expand expanding">
+                <div class="row expanding">
                     <div class="col-lg-12 paradiso">
                         <h1>Cinema Paradiso 2019</h1>
                     </div>
@@ -529,10 +531,10 @@
         </div>
 
 
-        <div class="row">
+        <div id="prev-end" class="row">
             <div id="abt-gall" class="row abt-gal">
 
-                <div class="prev-endeavours col-lg-12" style="padding: 0;">
+                <div class="prev-endeavours col-lg-12" style="padding: 10px;">
                     <h1>PREVIOUS ENDEAVOURS</h1>
                 </div>
 
@@ -627,7 +629,7 @@
                 </div>
                 <div class="col-lg-8 about-gallery">
                     <h1>Ashiwini</h1>
-                    <br><br>
+                    <br>
                     <div class="row each-gallery">
                         <!--div class="col-lg-4"></div>
                         <div class="col-lg-4">
@@ -669,43 +671,6 @@
                         <img src="./sources/cal_ig.jpeg" alt="Calcutta IG'ers Logo"> &nbsp;&nbsp;&nbsp;&nbsp;
                         <h1>Shutter </br> <span style="font-size:2.5vh;">(Photography Workshop)</span></h1>
                     </div>
-                    <!--div class="col-lg-12 our-collab-igers">
-                        <div class="collab-card">
-                            <img src="./sources/sammaya.png" alt="">
-                            <div class="collab-desc">
-                                <h1>Sample Name</h1>
-                                <h4>Sample Desc</h4>
-                            </div>
-                        </div>
-                        <div class="collab-card">
-                            <img src="./sources/anamitra.jpeg" alt="">
-                            <div class="collab-desc">
-                                <h1>Sample Name</h1>
-                                <h4>Sample Desc</h4>
-                            </div>
-                        </div>
-                        <div class="collab-card">
-                            <img src="./sources/shubhayu.jpeg" alt="">
-                            <div class="collab-desc">
-                                <h1>Sample Name</h1>
-                                <h4>Sample Desc</h4>
-                            </div>
-                        </div>
-                        <div class="collab-card">
-                            <img src="./sources/sammaya.png" alt="">
-                            <div class="collab-desc">
-                                <h1>Sample Name</h1>
-                                <h4>Sample Desc</h4>
-                            </div>
-                        </div>
-                        <div class="collab-card">
-                            <img src="./sources/sammaya.png" alt="">
-                            <div class="collab-desc">
-                                <h1>Sample Name</h1>
-                                <h4>Sample Desc</h4>
-                            </div>
-                        </div>
-                    </div-->
                 </div>
             </div>
         </div>
@@ -713,6 +678,18 @@
         <footer style="width:100%;">
             <div class="row foot1">
                 <div class="col-lg-4">
+
+                    <div id="nav-butts" class="hide-nav-butt">
+                        <a href="#header">
+                            <button id="the-top"><i class="fas fa-arrow-up"></i> Top</button>
+                        </a>
+                        <a href="./our-team.html">
+                            <button id="the-home"><i class="fas fa-users"></i> Team</button>
+                        </a>
+                    </div>
+
+                    <button id="top-button"><i class="fas fa-bars"></i></button>
+
                     <h2 class="footer-head1"><img src="./sources/pravasana_logo.png" alt="Pravasana Logo" width="85px">Pravasana</h2>
                     <p style="font-size: 2.5vh;"></br>
                     &ldquo;We don't take photographs</br>we make them.&rdquo;</p>
@@ -720,10 +697,10 @@
                 <div class="col-lg-4">
                     <h2 class="footer-head">Important Links</h2>
                     <br>
-                    <p>Home</p>
-                    <p>Office Bearers</p>
-                    <p>Events</p>
-                    <p>Contact Us</p>
+                    <a href="#header"><p>Home</p></a>
+                    <a href="#our-events"><p>Events</p></a>
+                    <a href="#prev-end"><p>Previous Endeavours</p></a>
+                    <a href="./our-team.html#the-team"><p>Office Bearers</p></a>
                 </div>
                 <div class="col-lg-4">
                     <h2 class="footer-head">Support & Feedback</h2>

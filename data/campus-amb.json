@@ -1,0 +1,21 @@
+[
+    {
+        "name" : "Shuvam Manna",
+        "post" : "Campus Ambassador",
+        "year" : "CSE 2nd",
+        "img" : "../sources/team/CampusAmb/Shuvam Manna-min.jpeg",
+        "linkedIn" : "",
+        "facebook" : "https://www.facebook.com/shuvam.manna.3",
+        "instagram" : "www.google.com"
+    },
+
+    {
+        "name" : "Soumali Bhattacharya",
+        "post" : "Official Photographer",
+        "year" : "ECE 2nd",
+        "img" : "../sources/team/CampusAmb/Soumali Bhattacharya-min.jpeg",
+        "linkedIn" : "",
+        "facebook" : "https://www.facebook.com/soumali.sammy97",
+        "instagram" : "www.google.com"
+    }
+]

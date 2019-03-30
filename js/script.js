@@ -7,19 +7,13 @@
 
     document.addEventListener("DOMContentLoaded", function () {
 
-        let expandButton = document.querySelector(".event-utsav button");
-        console.log(expandButton);
-        let eventsExpander = document.querySelector(".expanding");
-
-        expandButton.addEventListener("click", function() {
-            eventsExpander.classList.toggle("events-expand");
-            if(eventsExpander.classList.contains("events-expand"))
-                expandButton.innerHTML = "Expand ↓";
-            else
-            expandButton.innerHTML = "Collapse ↑";
-        });
-
             /* ANIMATION DEFINITIONS */
+
+            let navbutts = document.getElementById("nav-butts");
+            let navbutt = document.getElementById("top-button");
+            navbutt.addEventListener("click", () => {
+                navbutts.classList.toggle("hide-nav-butt");
+            });
 
             // initializing scroll magic
             let controller = new ScrollMagic.Controller();

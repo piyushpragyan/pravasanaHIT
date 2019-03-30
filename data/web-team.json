@@ -1,0 +1,22 @@
+[
+    {
+        "name" : "Raunak Sharma",
+        "post" : "Technical Head",
+        "year" : "CSE 3rd",
+        "img" : "../sources/team/web-team/Raunak-min.jpeg",
+        "linkedIn" : "https://www.linkedin.com/in/-raunak-sharma-/",
+        "facebook" : "",
+        "instagram" : "https://www.instagram.com/_raunak_sharma_/"
+    },
+
+    {
+        "name" : "Subhrojit Majumdar",
+        "post" : "Technical Team",
+        "year" : "CSE 3rd",
+        "img" : "../sources/team/Coordinator/Subhrojit Majumdar-min.jpeg",
+        "linkedIn" : "www.google.com",
+        "facebook" : "https://www.facebook.com/subhrojit.majumdar",
+        "instagram" : "www.google.com"
+    }
+
+]
