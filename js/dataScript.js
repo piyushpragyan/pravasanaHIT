@@ -4,7 +4,7 @@
     setTimeout(function () {
         const loader = document.querySelector(".loader");
         loader.className += " hidden";
-    }, 0);
+    }, 2500);
 
     document.addEventListener("DOMContentLoaded", function () {
 
